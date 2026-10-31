@@ -1,12 +1,12 @@
 {
   "settings": {
-    "name": "The Daily Edit",
+    "name": "The Outfit Note",
     "tagline": "A little inspiration. A better-dressed everyday.",
-    "origin": "https://the-daily-edit-finds.pages.dev",
+    "origin": "https://the_outfit_note",
     "pinterest": "",
     "heroImage": "/assets/hero.jpg",
     "disclosure": "Some links are affiliate links. We may earn a commission if you buy through them, at no extra cost to you.",
-    "amazonAssociate": false
+    "amazonAssociate": true
   },
   "products": [
     {
