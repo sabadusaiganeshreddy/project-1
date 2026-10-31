@@ -1,0 +1,11 @@
+import fs from 'node:fs';
+const account=process.env.CLOUDFLARE_ACCOUNT_ID,token=process.env.CLOUDFLARE_API_TOKEN;
+if(!/^[a-fA-F0-9]{32}$/.test(account||'')||!token)throw Error('Set a valid CLOUDFLARE_ACCOUNT_ID and CLOUDFLARE_API_TOKEN in GitHub repository secrets.');
+const response=await fetch(`https://api.cloudflare.com/client/v4/accounts/${account}/pages/projects/the-daily-edit-finds`,{headers:{Authorization:`Bearer ${token}`},signal:AbortSignal.timeout(30000)});
+const data=await response.json();
+if(!response.ok||!data.success)throw Error('Cannot read the existing Pages project. Check the account ID and Cloudflare Pages Edit permission.');
+const branch=data.result?.production_branch;
+if(!/^[A-Za-z0-9][A-Za-z0-9._/-]{0,99}$/.test(branch||''))throw Error('Cannot identify a safe production branch for the existing Pages project.');
+if(!process.env.GITHUB_OUTPUT)throw Error('This helper runs inside GitHub Actions.');
+fs.appendFileSync(process.env.GITHUB_OUTPUT,`branch=${branch}\n`);
+console.log('Verified the existing Cloudflare production project.');

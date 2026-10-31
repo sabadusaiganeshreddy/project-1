@@ -1,0 +1,1 @@
+{"name":"the-daily-edit","private":true,"type":"module","scripts":{"build":"node scripts/build.mjs","start":"node scripts/manage.mjs","test":"node --test scripts/catalog.test.mjs scripts/publishing.test.mjs","setup:publishing":"node scripts/setup-publishing.mjs"},"engines":{"node":">=20"}}

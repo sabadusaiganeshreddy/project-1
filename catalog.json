@@ -1,0 +1,73 @@
+{
+  "settings": {
+    "name": "The Daily Edit",
+    "tagline": "A little inspiration. A better-dressed everyday.",
+    "origin": "https://the-daily-edit-finds.pages.dev",
+    "pinterest": "",
+    "heroImage": "/assets/hero.jpg",
+    "disclosure": "Some links are affiliate links. We may earn a commission if you buy through them, at no extra cost to you.",
+    "amazonAssociate": false
+  },
+  "products": [
+    {
+      "slug": "cream-knit-layer",
+      "title": "The cream knit layer",
+      "category": "Clothing",
+      "image": "/assets/knit.jpg",
+      "imageAlt": "Cream knit poncho with a fringed hem on a wooden hanger",
+      "description": "A neutral knit is an easy starting point for a relaxed wardrobe. This sample edit explores a light, textured layer for slow mornings and casual afternoons.",
+      "styling": "Try a cream knit over a simple tank with straight-leg denim. Add a structured bag for a little contrast.",
+      "retailer": "Retailer",
+      "affiliateUrl": "",
+      "added": "2026-10-30",
+      "active": true,
+      "sample": true,
+      "badge": "THE SOFT SIDE"
+    },
+    {
+      "slug": "everyday-shoulder-bag",
+      "title": "The everyday shoulder bag",
+      "category": "Bags",
+      "image": "/assets/bag.jpg",
+      "imageAlt": "Structured handbag with a chain strap",
+      "description": "A structured silhouette brings a polished touch to the simplest outfit. This sample is a mood-board idea for finding your everyday companion.",
+      "styling": "Pair a structured bag with a relaxed shirt and denim. Keep the rest of your accessories simple so the shape stands out.",
+      "retailer": "Retailer",
+      "affiliateUrl": "",
+      "added": "2026-10-29",
+      "active": true,
+      "sample": true,
+      "badge": "FINISHING TOUCH"
+    },
+    {
+      "slug": "statement-floral-heels",
+      "title": "The statement floral heel",
+      "category": "Shoes",
+      "image": "/assets/shoes.jpg",
+      "imageAlt": "Blue pointed-toe floral heels on a pale blue background",
+      "description": "For the days that call for a little color. This sample edit takes its inspiration from a vivid floral pattern and a pointed-toe silhouette.",
+      "styling": "Let a patterned shoe be the focus with a solid-color dress or cropped black trousers. Pull one color from the print into your accessories.",
+      "retailer": "Retailer",
+      "affiliateUrl": "",
+      "added": "2026-10-28",
+      "active": true,
+      "sample": true,
+      "badge": "A LITTLE COLOR"
+    },
+    {
+      "slug": "jewel-tone-earrings",
+      "title": "The jewel-tone earring",
+      "category": "Accessories",
+      "image": "/assets/jewelry.jpg",
+      "imageAlt": "Blue jewel-tone statement earrings photographed on a green leaf",
+      "description": "An expressive detail that changes the mood of an outfit. This sample edit is all about rich color, light-catching shapes, and a little occasion dressing.",
+      "styling": "Wear statement earrings with an open neckline and tucked-back hair. A simple blouse gives the color room to shine.",
+      "retailer": "Retailer",
+      "affiliateUrl": "",
+      "added": "2026-10-27",
+      "active": true,
+      "sample": true,
+      "badge": "THE EXTRA DETAIL"
+    }
+  ]
+}
